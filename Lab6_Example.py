@@ -58,7 +58,6 @@ input_boxes = [input_box1, input_box2] # เก็บ InputBox ไว้ใน l
 run = True
 
 while run:
-    print('Hello')
     screen.fill((255, 255, 255))
     for box in input_boxes: # ทำการเรียก InputBox ทุกๆตัว โดยการ Loop เข้าไปยัง list ที่เราเก็บค่า InputBox ไว้
         box.update() # เรียกใช้ฟังก์ชัน update() ของ InputBox
